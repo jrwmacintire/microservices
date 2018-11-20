@@ -15,4 +15,4 @@ requester.connect('tcp://localhost:60401');
 
 // Send a request for content.
 console.log(`Sending a request for ${filename}`);
-requester.send(JSON.stringify({ path: filename }))
+requester.send(JSON.stringify({ path: filename }));
